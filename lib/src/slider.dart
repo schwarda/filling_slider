@@ -100,11 +100,11 @@ class _FillingSliderState extends State<FillingSlider> {
         width: widget.width,
         decoration: BoxDecoration(
             gradient: LinearGradient(
-                begin: Alignment.centerRight,
-                end: Alignment.centerLeft,
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
                 colors: [
-                  widget.color,
-                  widget.fillColor
+                  widget.fillColor,
+                  widget.color
                 ],
                 stops: [
                   1 - stateValue!,
