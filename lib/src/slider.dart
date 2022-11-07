@@ -110,7 +110,7 @@ class _FillingSliderState extends State<FillingSlider> {
                   1 - stateValue!,
                   0,
                 ]),
-            borderRadius: BorderRadiusDirectional.circular(20)),
+            borderRadius: BorderRadiusDirectional.circular(1)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
