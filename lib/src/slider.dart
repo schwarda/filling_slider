@@ -164,7 +164,7 @@ class _FillingSliderState extends State<FillingSlider> {
             widget.childBuilder == null
                 ? Container()
                 : widget.childBuilder!(context, stateValue!),
-            Padding(padding: EdgeInsets.only(bottom: 12))
+            Padding(padding: EdgeInsets.only(bottom: 16))
           ],
         ),
       ),
